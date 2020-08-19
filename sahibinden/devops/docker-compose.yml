@@ -1,0 +1,10 @@
+version: '3'
+
+services:
+  sahibinden_db:
+    image: library/postgres:11.5
+    container_name: sahibinden_db
+    ports:
+    - "5432:5432"
+    volumes:
+    - ./../../sahibinden_db:/var/lib/postgreql/data
