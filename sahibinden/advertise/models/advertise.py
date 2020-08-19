@@ -1,13 +1,14 @@
 from django.db import models
-from advertise.choices import (NumberOfRoomsChoices,
-                               NumberOfBuildingAgeChoices,
-                               NumberOfFloorChoices,
-                               NumberOfBathroomsChoices,
-                               HeatingChoices,
-                               UsingStatusChoices,
-                               AdvertiseVisibilityChoices,
-                               AdvertiseStatusChoices,
-                               )
+from advertise.choices import ( NumberOfRoomsChoices,
+                                NumberOfBuildingAgeChoices,
+                                NumberOfFloorChoices,
+                                NumberOfBathroomsChoices,
+                                HeatingChoices,
+                                UsingStatusChoices,
+                                AdvertiseVisibilityChoices,
+                                AdvertiseStatusChoices,
+                                          )
+
 
 class Advertise(models.Model):
     title = models.CharField(max_length=100)
@@ -27,6 +28,15 @@ class Advertise(models.Model):
     updated_at = models.DateTimeField(auto_now_add=True)
     status = models.PositiveIntegerField(choices=AdvertiseStatusChoices.CHOICES)
     visibility = models.PositiveIntegerField(choices=AdvertiseVisibilityChoices.CHOICES)
+
+    #collections
+    frontal = models.ManyToManyField(to="advertise.Frontal")
+    interior_feature = models.ManyToManyField(to="advertise.InteriorFeature")
+    exterior_feature = models.ManyToManyField(to="advertise.ExteriorFeature")
+    locality = models.ManyToManyField(to="advertise.Locality")
+    transportation = models.ManyToManyField(to="advertise.Transportation")
+    landscape = models.ManyToManyField(to="advertise.Landscape")
+    suitable_for_disabled = models.ManyToManyField(to="advertise.SuitableForDisabled")
 
     def __str__(self):
         return f"{self.title}"
