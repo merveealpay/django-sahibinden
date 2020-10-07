@@ -9,3 +9,5 @@ from advertise.models.collections import (
                                             SuitableForDisabled,
                                             Transportation
                                                         )
+
+from advertise.models.user import User

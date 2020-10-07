@@ -1,0 +1,8 @@
+birth_day (DatetimeField)
+gender (Choices)
+marital_status (Choices)
+educational_status = (Choices)
+profession = (CharField)
+interests = ManyToManyField
+phone_number = CharField
+profile_photo = ImageField

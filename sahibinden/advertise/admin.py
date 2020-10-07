@@ -10,7 +10,8 @@ from advertise.models import (Advertise,
                               City,
                               Town,
                               NeighborHood,
-                              AdvertiseAddress
+                              AdvertiseAddress,
+                              User
                               )
 
 admin.site.register(Advertise)
@@ -24,4 +25,4 @@ admin.site.register(City)
 admin.site.register(Town)
 admin.site.register(NeighborHood)
 admin.site.register(AdvertiseAddress)
-
+admin.site.register(User)
