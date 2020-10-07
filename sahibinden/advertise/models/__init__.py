@@ -10,4 +10,4 @@ from advertise.models.collections import (
                                             Transportation
                                                         )
 
-from advertise.models.user import User
+from advertise.models.user import User, Interest

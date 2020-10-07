@@ -175,3 +175,49 @@ class AdvertiseStatusChoices(object):
         (ACTIVE, "Aktif"),
         (DELETED, "Silinmiş"),
     )
+
+class GenderChoices(object):
+    KADIN = 0
+    ERKEK = 1
+
+    CHOICES = (
+        (KADIN, "Kadın"),
+        (ERKEK, "Erkek")
+    )
+
+class MartialStatusChoices(object):
+    EVLI = 0
+    BEKAR = 1
+
+    CHOICES = (
+        (EVLI, "Evli"),
+        (BEKAR, "Bekar")
+    )
+
+class EducationalStatusChoices(object):
+    ILKOKUL = 0
+    LISE = 1
+    UNIVERSITE = 2
+
+    CHOICES = (
+        (ILKOKUL, "Ilkokul"),
+        (LISE, "Lise"),
+        (UNIVERSITE, "Universite")
+    )
+
+class ProfessionChoices(object):
+        OZEL_SEKTOR = 0
+        OGRENCI = 1
+        KAMU_CALISANI = 2
+        EV_HANIMI = 3
+        CALISMIYORUM = 4
+        EMEKLI = 5
+
+        CHOICES = (
+            (OZEL_SEKTOR, "Ozel Sektor"),
+            (OGRENCI, "Ogrenci"),
+            (KAMU_CALISANI, "Kamu Calısanı"),
+            (EV_HANIMI, "Ev Hanımı"),
+            (CALISMIYORUM, "Calısmıyorum"),
+            (EMEKLI, "Emekli")
+        )

@@ -11,7 +11,7 @@ from advertise.models import (Advertise,
                               Town,
                               NeighborHood,
                               AdvertiseAddress,
-                              User
+                              User, Interest
                               )
 
 admin.site.register(Advertise)
@@ -26,3 +26,4 @@ admin.site.register(Town)
 admin.site.register(NeighborHood)
 admin.site.register(AdvertiseAddress)
 admin.site.register(User)
+admin.site.register(Interest)
