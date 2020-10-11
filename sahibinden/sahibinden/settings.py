@@ -55,6 +55,8 @@ INSTALLED_APPS = [
     'allauth.account',
     'allauth.socialaccount',
 
+    'widget_tweaks',
+
 ]
 
 SITE_ID = 1
@@ -63,7 +65,9 @@ ACCOUNT_EMAIL_REQUIRED = True
 ACCOUNT_EMAIL_VERIFICATION = "none"
 ACCOUNT_AUTHENTICATION_METHOD = "email"
 LOGIN_REDIRECT_URL = "/"
+ACCOUNT_SESSION_REMEMBER = False
 ACCOUNT_FORMS = {'signup': 'advertise.forms.CustomSignupForm'}
+
 
 
 MIDDLEWARE = [

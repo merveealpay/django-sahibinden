@@ -1562,7 +1562,6 @@
       <change beforePath="$PROJECT_DIR$/../env/lib/python3.6/site-packages/django/views/templates/technical_500.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../env/lib/python3.6/site-packages/django/views/templates/technical_500.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sahibinden/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/sahibinden/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sahibinden/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/sahibinden/urls.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -1575,8 +1574,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="Python Script" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -1688,7 +1687,7 @@
       <workItem from="1601582650580" duration="1906000" />
       <workItem from="1602018443063" duration="85000" />
       <workItem from="1602095078053" duration="4896000" />
-      <workItem from="1602413002041" duration="7724000" />
+      <workItem from="1602413002041" duration="10596000" />
     </task>
     <servers />
   </component>
