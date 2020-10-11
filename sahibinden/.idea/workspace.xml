@@ -1561,11 +1561,9 @@
       <change beforePath="$PROJECT_DIR$/../env/lib/python3.6/site-packages/django/views/templates/technical_500.html" beforeDir="false" afterPath="$PROJECT_DIR$/../env/lib/python3.6/site-packages/django/views/templates/technical_500.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../env/lib/python3.6/site-packages/django/views/templates/technical_500.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../env/lib/python3.6/site-packages/django/views/templates/technical_500.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advertise/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/advertise/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advertise/choices.py" beforeDir="false" afterPath="$PROJECT_DIR$/advertise/choices.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advertise/models/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/advertise/models/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advertise/models/advertise.py" beforeDir="false" afterPath="$PROJECT_DIR$/advertise/models/advertise.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advertise/models/user.py" beforeDir="false" afterPath="$PROJECT_DIR$/advertise/models/user.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/advertise/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/advertise/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sahibinden/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/sahibinden/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sahibinden/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/sahibinden/urls.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -1579,6 +1577,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Python Script" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -1595,11 +1594,12 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="TERMINAL_CUSTOM_COMMANDS_GOT_IT" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$USER_HOME$/PycharmProjects/PentestAsAService" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/static" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -1610,6 +1610,10 @@
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Python" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/static" />
+      <recent name="$PROJECT_DIR$/advertise/static/advertise" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/sahibinden/advertise/advertise.py" />
     </key>
@@ -1684,7 +1688,8 @@
       <workItem from="1600617467552" duration="1996000" />
       <workItem from="1601582650580" duration="1906000" />
       <workItem from="1602018443063" duration="85000" />
-      <workItem from="1602095078053" duration="4517000" />
+      <workItem from="1602095078053" duration="4896000" />
+      <workItem from="1602413002041" duration="3855000" />
     </task>
     <servers />
   </component>
@@ -1722,5 +1727,9 @@
     </state>
     <state x="9" y="119" key="SettingsEditor/1280.0.1920.1080/0.34.1280.990@0.34.1280.990" timestamp="1601584190211" />
     <state x="1638" y="103" key="SettingsEditor/1280.0.1920.1080/0.34.1280.990@1280.0.1920.1080" timestamp="1597063128186" />
+    <state x="326" y="0" width="764" height="951" key="find.popup" timestamp="1602414289864">
+      <screen x="0" y="34" width="1280" height="990" />
+    </state>
+    <state x="326" y="0" width="764" height="951" key="find.popup/1280.0.1920.1080/0.34.1280.990@0.34.1280.990" timestamp="1602414289864" />
   </component>
 </project>
