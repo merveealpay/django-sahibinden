@@ -1561,7 +1561,10 @@
       <change beforePath="$PROJECT_DIR$/../env/lib/python3.6/site-packages/django/views/templates/technical_500.html" beforeDir="false" afterPath="$PROJECT_DIR$/../env/lib/python3.6/site-packages/django/views/templates/technical_500.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../env/lib/python3.6/site-packages/django/views/templates/technical_500.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../env/lib/python3.6/site-packages/django/views/templates/technical_500.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/advertise/models/user.py" beforeDir="false" afterPath="$PROJECT_DIR$/advertise/models/user.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sahibinden/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/sahibinden/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/account/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/account/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -1687,7 +1690,10 @@
       <workItem from="1601582650580" duration="1906000" />
       <workItem from="1602018443063" duration="85000" />
       <workItem from="1602095078053" duration="4896000" />
-      <workItem from="1602413002041" duration="10596000" />
+      <workItem from="1602413002041" duration="11218000" />
+      <workItem from="1603966086075" duration="5000" />
+      <workItem from="1603967628301" duration="951000" />
+      <workItem from="1603988919213" duration="3500000" />
     </task>
     <servers />
   </component>
